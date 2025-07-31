@@ -1,0 +1,24 @@
+{
+  "name": "brk-visualizer-backend",
+  "version": "1.0.0",
+  "description": "Backend para integração com BLing v3",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev"
+  },
+  "dependencies": {
+    "fastify": "^5.2.2",
+    "@fastify/cors": "^11.0.1",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "@prisma/client": "^5.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "prisma": "^5.10.0"
+  }
+}

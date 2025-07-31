@@ -1,0 +1,12 @@
+# Configurações do Banco de Dados
+DATABASE_URL="postgresql://usuario:postgres@localhost:5432/products"
+
+# Configurações do Bling API
+BLING_API_URL="https://www.bling.com.br/Api/v3"
+BLING_API_KEY="1b2726b231e40a4303ca7e5f2c9e252ba615cd50"
+BLING_REFRESH_TOKEN="084d68c5d4e2497163b17e39decbcd3a18972386"
+BLING_CLIENT_ID="a4bfa9e74c9502073eb886f0fcf20ffa9b799ba7"
+BLING_CLIENT_SECRET="8d5abd4544d3a7970ddb2754f00dbf1092ef297f742e29cf771f4dc26aee"
+
+# Configurações do Servidor
+PORT=3000 
